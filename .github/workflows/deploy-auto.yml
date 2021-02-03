@@ -35,7 +35,7 @@ jobs:
           cmd: install #  it will install all those files and folder which are required for runing react ap
      
       - name: creating build folder
-        run: yarn build
+        run: sudo yarn build
   
       # Runs a set of commands using the runners shell
       - name: Installing surge
